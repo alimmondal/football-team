@@ -52,9 +52,9 @@ const TeamDetail = () => {
             </div>
             <div className="social-icon container">
                 <ul className="">
-                    <li><a target="_blank" rel="noreferrer" href="https:www.facebook.com/" ><img src={facebook} alt="" /></a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https:www.twitter.com/"><img src={Twitter} alt="" /></a></li>
-                    <li><a rel="noreferrer" target="_blank" href="https:www.youtube.com/user/ArsenalTour"><img src={YouTube} alt="" /></a></li>
+                    <li><a  href="https:www.facebook.com/" ><img src={facebook} alt="" /></a></li>
+                    <li><a  href="https:www.twitter.com/"><img src={Twitter} alt="" /></a></li>
+                    <li><a  href="https:www.youtube.com/user/ArsenalTour"><img src={YouTube} alt="" /></a></li>
 
                 </ul>
             </div>

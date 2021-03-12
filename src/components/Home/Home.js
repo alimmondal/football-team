@@ -21,7 +21,7 @@ const Home = () => {
             </div>           
             <div className="container gridHome">
                 {
-                    posts.map(post => <Post post={post}></Post>)
+                    posts.map(post => <Post post={post} key={post.idTeam}></Post>)
                 }
             </div>
         </div>

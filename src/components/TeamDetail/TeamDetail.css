@@ -14,7 +14,6 @@
 .teamDetail img{
     width: 700px;
     height: 200px;
-    /* margin-left: 200px; */
 }
 @media (max-width: 768px){
     .teamDetail img{
@@ -28,9 +27,7 @@
         left:150px 
     }
 }
-.teamInfo{
-    /* margin-right: 100px; */
-}
+
 .teamDetail{
     display:grid;
     grid-template-columns: repeat(2, 1fr);

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useHistory } from 'react-router';
-// import TeamDetail from '../TeamDetail/TeamDetail';
 import './Post.css'
 
 const Post = (props) => {

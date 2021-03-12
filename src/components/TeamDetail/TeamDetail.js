@@ -64,7 +64,3 @@ const TeamDetail = () => {
 
 export default TeamDetail;
 
-
-// {
-//     posts.map(team => <TeamInfo team={team}></TeamInfo>)
-// }

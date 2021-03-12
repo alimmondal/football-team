@@ -12,16 +12,14 @@ const Post = (props) => {
     }
    
     return (
-        <div className="gridStyle">
-  
+        <div>
         <div className="teamHome">         
             <img className="" src={strTeamBadge} alt=""/> <br/>
             <h2>{strTeam}</h2>
             <img className="teamLogo"  src={strTeamLogo} alt="" />
             <br/>
-            <button className="btn-primary px-4 mt-2 rounded" 
+            <button className="btn-primary px-4 mt-2 rounded py-1" 
             onClick={() =>showDetail(idTeam)}>Explore Detail</button>
-   
         </div>
         </div>
     );

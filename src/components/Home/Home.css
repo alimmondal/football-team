@@ -1,0 +1,29 @@
+.homeColor {
+    background-color: lightgray;
+}
+
+img {
+    height: 150px;
+}
+
+.gridHome {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+@media(max-width:768px) {
+    .gridHome {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+}
+
+ul li {
+    list-style: none;
+}
+
+.homeBanner img {
+    width: 1345px;
+}

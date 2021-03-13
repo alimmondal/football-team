@@ -27,7 +27,7 @@ const TeamDetail = () => {
             </div>
 
             <div className="teamDetailBanner">
-                <img src={teamBanner} className="img-fluid" alt="" />
+                <img src={posts.strStadiumThumb} className="img-fluid" alt="" />
             </div>
 
             <div className="teamDetail container">

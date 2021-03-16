@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import './TeamDetail.css';
 import maleImg from '../../image/male.png';
-import teamBanner from '../../image/teamBanner.PNG';
 import facebook from '../../image/Facebook.png';
 import Twitter from '../../image/Twitter.png';
 import YouTube from '../../image/YouTube.png';
